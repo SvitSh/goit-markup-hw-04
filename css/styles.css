@@ -175,8 +175,8 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  max-width: 1440px;
-  margin: 0 auto;
+  width: 100%; /* Заполняет всю доступную ширину */
+  margin: 0;
 }
 
 .business-title {
