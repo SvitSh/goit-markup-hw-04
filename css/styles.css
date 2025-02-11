@@ -163,16 +163,23 @@ img {
 
 .business {
   background-color: #2e2f42;
-  background-image: linear-gradient
-      (rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/people-office.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
-  max-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
+
+  width: 100%; /* Фон на всю ширину экрана */
+  max-width: 1440px; /* Ограничение ширины секции */
+  height: 600px; /* Фиксированная высота */
+  margin: 0 auto; /* Центрирование секции */
+  padding: 0; /* Убираем лишние отступы */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .business-title {
